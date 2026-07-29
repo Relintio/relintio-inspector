@@ -1,0 +1,10 @@
+{
+  "name": "relintio-inspector",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Chrome extension: inspect Relintio protection on any page, and catch a licence key that reached the browser.",
+  "scripts": {
+    "test": "node --test --test-timeout=10000 test/scan.test.mjs"
+  }
+}
